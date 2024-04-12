@@ -2,18 +2,20 @@ from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 import os
 import total
+from pydub import AudioSegment
 from total import process_audio
 from total import extractive_summarization
 from total import abstractive_summarization
 from total import abstract
+from total import perform_speaker_diarization
 
 
 
 app = Flask(__name__, template_folder="templates")
 
 
-app.config['UPLOAD_FOLDER'] = '/Users/dheerajreddy/Desktop/sample/audio_folder'
-ALLOWED_EXTENSIONS = {'mp3'}
+app.config['UPLOAD_FOLDER'] = '/Users/dheerajreddy/Desktop/sample-copy/audio_folder'
+ALLOWED_EXTENSIONS = {'mp3', 'wav'}
 
 # Function to check if a file has an allowed extension
 def allowed_file(filename):
@@ -38,14 +40,20 @@ def aud2text():
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(file.filename))
             file.save(file_path)
             
-            result = total.process_audio(file_path)        
+            # Load the audio data
+            audio = AudioSegment.from_file(file_path)
+            
+            # Perform speaker diarization
+            result = total.perform_speaker_diarization(file_path, audio)
+            
             # Remove the uploaded file
             os.remove(file_path)
             return render_template('aud2text.html', result=result)
         else:
             return 'Invalid file format'
     
-    return render_template('aud2text.html')    
+    return render_template('aud2text.html')
+    
 
 
 @app.route('/aud2sum', methods=['POST','GET'])
