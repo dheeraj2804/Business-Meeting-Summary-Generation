@@ -1,0 +1,182 @@
+WEBVTT
+
+00:00.000 --> 00:04.720
+The following is a conversation with Jan Lekun, his second time on the podcast.
+
+00:04.720 --> 00:09.120
+He is the chief AI scientist at Metta, formerly Facebook,
+
+00:09.120 --> 00:15.600
+professor at NYU, touring award winner, one of the seminal figures in the history
+
+00:15.600 --> 00:21.920
+of machine learning and artificial intelligence, and someone who is brilliant and opinionated
+
+00:21.920 --> 00:25.360
+in the best kind of way, and so is always fun to talk to.
+
+00:25.840 --> 00:28.560
+This is Alex Friedman podcast to support it.
+
+00:28.560 --> 00:30.720
+Please check out our sponsors in the description.
+
+00:30.720 --> 00:33.600
+And now here's my conversation with Jan Lekun.
+
+00:33.600 --> 00:38.320
+You co-wrote the article, self-supervised learning, the dark matter of intelligence.
+
+00:38.320 --> 00:39.520
+Great title, by the way.
+
+00:39.520 --> 00:41.120
+Will he shine, Ezra?
+
+00:41.120 --> 00:46.960
+So let me ask, what is self-supervised learning and why is it the dark matter of intelligence?
+
+00:46.960 --> 00:48.800
+I'll start by the dark matter part.
+
+00:49.760 --> 00:58.960
+There is obviously a kind of learning that humans and animals are doing that we currently are not
+
+00:58.960 --> 01:01.920
+reproducing properly with machines or with AI, right?
+
+01:01.920 --> 01:04.960
+So the most popular approaches to machine learning today are
+
+01:05.680 --> 01:09.040
+or Pydheims, I should say, are supervised learning and reinforcement learning.
+
+01:10.000 --> 01:16.240
+And there is too many efficient supervised learning requires many samples for learning anything.
+
+01:17.040 --> 01:22.560
+And reinforcement learning requires a ridiculously large number of trial and errors to
+
+01:22.560 --> 01:24.400
+for a system to learn anything.
+
+01:26.560 --> 01:28.400
+And that's why we don't have self-driving cars.
+
+01:28.400 --> 01:30.240
+That's a big leap for one to the other.
+
+01:30.240 --> 01:35.360
+Okay, so to solve difficult problems, you have to have a lot of
+
+01:36.480 --> 01:39.440
+human annotations for supervised learning to work.
+
+01:39.440 --> 01:42.960
+And to solve those difficult problems with reinforcement learning, you have to have
+
+01:42.960 --> 01:47.680
+some way to maybe simulate that problem such that you can do that large scale kind of learning
+
+01:47.680 --> 01:49.360
+that reinforcement learning requires.
+
+01:49.360 --> 01:56.320
+Right, so how is it that most teenagers can learn to drive a car in about 20 hours of practice,
+
+01:57.200 --> 02:04.160
+whereas even with millions of hours of simulated practice, self-driving car can't actually learn
+
+02:04.160 --> 02:09.760
+to drive itself properly? And so obviously we're missing something, right? And it's quite obvious
+
+02:09.840 --> 02:16.160
+for a lot of people that the immediate response you get from people is, well, humans use their
+
+02:16.160 --> 02:22.800
+background knowledge to learn faster. And they're right. Now, how was that background knowledge
+
+02:22.800 --> 02:29.760
+acquired? And that's the big question. So now you have to ask, how do babies in the first few
+
+02:29.760 --> 02:34.960
+months of life learn how the world works, mostly by observation, because they can hardly act in the
+
+02:34.960 --> 02:39.840
+world. And they learn an enormous amount of background knowledge about the world that may be
+
+02:40.640 --> 02:46.880
+the basis of what we call common sense. This type of learning is not learning a task, it's not
+
+02:47.600 --> 02:52.240
+being reinforced for anything, it's just observing the world and figuring out how it works.
+
+02:53.600 --> 02:59.280
+Building world models, learning world models. How do we do this? And how do we reproduce this
+
+02:59.360 --> 03:06.640
+in machines? So self-supervised learning is one instance or one attempt at trying to reproduce
+
+03:06.640 --> 03:12.160
+this kind of learning. Okay, so you're looking at just observation. So not even the interacting part
+
+03:12.160 --> 03:17.760
+of a child. It's just sitting there watching Mom and Dad walk around, pick up stuff, all of that.
+
+03:17.760 --> 03:22.960
+That's what you mean by background knowledge. Perhaps not even watching Mom and Dad just watching
+
+03:22.960 --> 03:28.080
+the world go by. Just having eyes open or having eyes closed or the very active opening and closing
+
+03:28.160 --> 03:34.400
+eyes that the world appears and disappears, all that basic information. And you're saying in order to
+
+03:34.400 --> 03:40.080
+learn to drive, like the reason humans are able to learn to drive quickly, some faster than others,
+
+03:40.080 --> 03:44.320
+is because of the background knowledge, they were able to watch cars operate in the world in the
+
+03:44.320 --> 03:48.560
+many years leading up to it, the physics of basic subjects, all that kind of stuff. That's right.
+
+03:48.560 --> 03:52.480
+I mean the basic physics of objects, you don't even know, you don't even need to know how
+
+03:52.480 --> 03:56.960
+car works, because that you can run fairly quickly. I mean the example I use very often is you're
+
+03:56.960 --> 04:03.360
+driving next to a cliff. And you know in advance, because of your understanding of
+
+04:03.360 --> 04:07.440
+intuitive physics, that if you turn the wheel to the right, the car will be out to the right,
+
+04:07.440 --> 04:11.360
+we'll run off the cliff, fall off the cliff, and nothing good will come out of this.
+
+04:11.360 --> 04:18.720
+But if you are a sort of tabularized reinforcement learning system that doesn't have a model of
+
+04:18.720 --> 04:24.480
+the world, you have to repeat folding off this cliff thousands of times before you figure out
+
+04:24.480 --> 04:28.880
+it's a bad idea. And then a few more thousand times before you figure out how to not do it.
+
+04:29.440 --> 04:33.040
+And then a few more million times before you figure out how to not do it in every situation
+
+04:33.040 --> 04:38.720
+you ever encounter. So self-supervised learning still has to have some source of truth
+
+04:39.440 --> 04:45.760
+being told to it by somebody, by some. And so you have to figure out a way without human
+
+04:45.760 --> 04:50.720
+assistance or without significant amount of human assistance to get that truth from the world.
+
+04:50.720 --> 04:52.720
+So the
+

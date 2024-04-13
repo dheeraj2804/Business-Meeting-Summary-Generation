@@ -1,0 +1,60 @@
+The following is a conversation with Jan Lekun, his second time on the podcast.
+He is the chief AI scientist at Metta, formerly Facebook,
+professor at NYU, touring award winner, one of the seminal figures in the history
+of machine learning and artificial intelligence, and someone who is brilliant and opinionated
+in the best kind of way, and so is always fun to talk to.
+This is Alex Friedman podcast to support it.
+Please check out our sponsors in the description.
+And now here's my conversation with Jan Lekun.
+You co-wrote the article, self-supervised learning, the dark matter of intelligence.
+Great title, by the way.
+Will he shine, Ezra?
+So let me ask, what is self-supervised learning and why is it the dark matter of intelligence?
+I'll start by the dark matter part.
+There is obviously a kind of learning that humans and animals are doing that we currently are not
+reproducing properly with machines or with AI, right?
+So the most popular approaches to machine learning today are
+or Pydheims, I should say, are supervised learning and reinforcement learning.
+And there is too many efficient supervised learning requires many samples for learning anything.
+And reinforcement learning requires a ridiculously large number of trial and errors to
+for a system to learn anything.
+And that's why we don't have self-driving cars.
+That's a big leap for one to the other.
+Okay, so to solve difficult problems, you have to have a lot of
+human annotations for supervised learning to work.
+And to solve those difficult problems with reinforcement learning, you have to have
+some way to maybe simulate that problem such that you can do that large scale kind of learning
+that reinforcement learning requires.
+Right, so how is it that most teenagers can learn to drive a car in about 20 hours of practice,
+whereas even with millions of hours of simulated practice, self-driving car can't actually learn
+to drive itself properly? And so obviously we're missing something, right? And it's quite obvious
+for a lot of people that the immediate response you get from people is, well, humans use their
+background knowledge to learn faster. And they're right. Now, how was that background knowledge
+acquired? And that's the big question. So now you have to ask, how do babies in the first few
+months of life learn how the world works, mostly by observation, because they can hardly act in the
+world. And they learn an enormous amount of background knowledge about the world that may be
+the basis of what we call common sense. This type of learning is not learning a task, it's not
+being reinforced for anything, it's just observing the world and figuring out how it works.
+Building world models, learning world models. How do we do this? And how do we reproduce this
+in machines? So self-supervised learning is one instance or one attempt at trying to reproduce
+this kind of learning. Okay, so you're looking at just observation. So not even the interacting part
+of a child. It's just sitting there watching Mom and Dad walk around, pick up stuff, all of that.
+That's what you mean by background knowledge. Perhaps not even watching Mom and Dad just watching
+the world go by. Just having eyes open or having eyes closed or the very active opening and closing
+eyes that the world appears and disappears, all that basic information. And you're saying in order to
+learn to drive, like the reason humans are able to learn to drive quickly, some faster than others,
+is because of the background knowledge, they were able to watch cars operate in the world in the
+many years leading up to it, the physics of basic subjects, all that kind of stuff. That's right.
+I mean the basic physics of objects, you don't even know, you don't even need to know how
+car works, because that you can run fairly quickly. I mean the example I use very often is you're
+driving next to a cliff. And you know in advance, because of your understanding of
+intuitive physics, that if you turn the wheel to the right, the car will be out to the right,
+we'll run off the cliff, fall off the cliff, and nothing good will come out of this.
+But if you are a sort of tabularized reinforcement learning system that doesn't have a model of
+the world, you have to repeat folding off this cliff thousands of times before you figure out
+it's a bad idea. And then a few more thousand times before you figure out how to not do it.
+And then a few more million times before you figure out how to not do it in every situation
+you ever encounter. So self-supervised learning still has to have some source of truth
+being told to it by somebody, by some. And so you have to figure out a way without human
+assistance or without significant amount of human assistance to get that truth from the world.
+So the
