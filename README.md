@@ -3,12 +3,12 @@
 College Team Reference No: CSM-Team07(MLRIT 2020-2024)
 
 Project By-
-A Dheeraj Reddy,
-A Chinmaye,
-D Saketh Reddy,
-Mohammed Irfan
+* A Dheeraj Reddy [GitHub](https://github.com/dheeraj2804)
+* A Chinmaye [GitHub](https://github.com/Chinmaye09)
+* D Saketh Reddy [GitHub](https://github.com/saketh-dr)
+* Mohammed Irfan
 
-***Change the branch to "master" for all the codes.***
+Note: ***Change the branch to [master](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/master) for all the codes.***
 
 Objectives:
 1) Front End - created a simple webpage to take user input meeting reordings. 
