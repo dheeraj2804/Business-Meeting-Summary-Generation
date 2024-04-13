@@ -89,4 +89,4 @@ This project involves the development of an innovative system for meeting summar
 * A. Dheeraj Reddy [GitHub](https://github.com/dheeraj2804)
 * A. Chinmaye [GitHub](https://github.com/Chinmaye09)
 * D. Sakth Reddy [GitHub](https://github.com/saketh-dr)
-* Mohammed Irfan [GitHub](https://github.com/Midhilesh13)
+* Mohammed Irfan [GitHub](https://github.com/irfanmd17)
