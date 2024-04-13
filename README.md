@@ -6,7 +6,7 @@ Project By-
 * A Dheeraj Reddy [GitHub](https://github.com/dheeraj2804)
 * A Chinmaye [GitHub](https://github.com/Chinmaye09)
 * D Saketh Reddy [GitHub](https://github.com/saketh-dr)
-* Mohammed Irfan
+* Mohammed Irfan [GitHub](https://github.com/irfanmd17)
 
 Note: ***Change the branch to [master](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/master) for all the codes.***
 
