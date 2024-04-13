@@ -54,3 +54,39 @@ This project involves the development of an innovative system for meeting summar
     * Navigate through the website to access the 3rd service page and upload the audio file and the system generates a Meeting agenda along with a short summary of abstractive type.
 
 7. To close the server press ***ctrl+c*** in the terminal.
+
+## Execution Screenshots
+1. Main page
+![Main_Page.jpg](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/master/Project%20Execution%20Screenshots/UI1.png)
+
+2. Services Page
+
+![Services_Page.jpg](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/master/Project%20Execution%20Screenshots/UI2.png)
+
+3. About Page
+
+![About_Page.jpg](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/master/Project%20Execution%20Screenshots/UI3.png)
+
+
+4. Audio-to-Text Transcription service page
+
+![Service-1_Page.jpg](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/master/Project%20Execution%20Screenshots/service1-pic.png)
+
+5. Extractive Summarization service page
+
+![Service-2_Page.jpg](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/master/Project%20Execution%20Screenshots/service2-pic.png)
+
+6. Meeting Agenda Generation service page
+
+![Service-3_Page.jpg](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/master/Project%20Execution%20Screenshots/service3-pic.png)
+
+
+
+*To see all the execution photos open [Project Execution Photos](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/master/Project%20Execution%20Screenshots) directory*
+
+## Credits
+
+* A. Dheeraj Reddy [GitHub](https://github.com/dheeraj2804)
+* A. Chinmaye [GitHub](https://github.com/Chinmaye09)
+* D. Sakth Reddy [GitHub](https://github.com/saketh-dr)
+* Mohammed Irfan [GitHub](https://github.com/Midhilesh13)
