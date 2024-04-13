@@ -1,8 +1,9 @@
-# Real-Time-Emotion-Detection-from-Text
+# Business Meeting Summary Generation
 Project By-
-Atul Kumar Nayak,
-A Rohan,
-G Kausthub Rao
+A Dheeraj Reddy,
+A Chinmaye,
+D Saketh Reddy,
+Mohammed Irfan
 
 ***Change the branch to "master" for all the codes.***
 
