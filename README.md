@@ -113,7 +113,7 @@ pip install pyannote.audio
 
 7. To close the server press ***ctrl+c*** in the terminal.
 
-## Execution Screenshots
+## Screenshots
 1. Main page
 ![Main_Page.jpg](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/master/Project%20Execution%20Screenshots/UI1.png)
 
