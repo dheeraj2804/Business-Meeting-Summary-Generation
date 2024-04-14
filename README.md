@@ -5,6 +5,8 @@
 ## Description
 
 This project involves the development of an innovative system for meeting summary generation. The system couples the audio-to-text transcription with both extractive and abstractive summarization pipelines to generate different kinds of summaries for easy understanding and interpretation. The system is also able to generate a meeting agenda that helps in better understanding the context of the meeting.
+* To see all the project related papers and documentations open [main](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/main) brach
+
 ## Software Requirements
 
 1. Editor for HTML, CSS, Python, Flask - VS Code
@@ -113,6 +115,12 @@ pip install pyannote.audio
 
 7. To close the server press ***ctrl+c*** in the terminal.
 
+## Video Demonstration
+* Click here to get the detailed walkthrough of our project
+
+  [Video presentation](https://drive.google.com/file/d/1wTtanVUsArr7Gx1a0UxleK24MX03uTkG/view?usp=sharing)
+
+
 ## Screenshots
 1. Main page
 ![Main_Page.jpg](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/master/Project%20Execution%20Screenshots/UI1.png)
@@ -141,7 +149,13 @@ pip install pyannote.audio
 
 
 * To see all the execution photos open [Project Execution Photos](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/master/Project%20Execution%20Screenshots) directory
-* To see all the project related papers and documentations open [main](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/main) brach
+
+
+## Acknowledgements
+
+* This project utilizes various open-source libraries and frameworks, including NLTK, scikit-learn, Whisper, Pydub, Pyannote and Flask.
+* Special thanks to the open-source community for their contributions and support.
+
 
 ## Credits
 
