@@ -21,6 +21,7 @@ This project involves the development of an innovative system for meeting summar
 ## Installations
 
 * Clone or download the project repository from GitHub.
+* Create a virtual environment in your respective code editor(VScode or Anaconda Navigator).
 * Install the required software dependencies listed in the "Software Requirements" section.
 
 Numpy:
@@ -83,7 +84,7 @@ pip install pyannote.audio
 * Set up the development environment on your development machine.
 ## Usage
 
-1. Navigate to the project directory on your development machine and create a virtal environmnent in either VScode or Anacoder Navigator.
+1. Navigate to the project directory on your development machine.
 2. To start the **Main Page of Project** in the live server:
 
     * Run the *main.py* script using the command ***python main.py***
