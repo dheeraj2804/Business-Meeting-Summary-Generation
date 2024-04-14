@@ -22,38 +22,97 @@ This project involves the development of an innovative system for meeting summar
 11. pyannote.audio Library
 ## Installations
 
-1. Clone or download the project repository from GitHub.
-2. Install the required software dependencies listed in the "Software Requirements" section.
-3. Create your access token on huggingface to utilize their pyannote-Speaker Diarization system by following their terms and conditions. (Follow these instructions [Speaker-Diarization](https://huggingface.co/pyannote/speaker-diarization-3.1) for more understanding)
-3. Set up the development environment on your development machine.
+* Clone or download the project repository from GitHub.
+* Install the required software dependencies listed in the "Software Requirements" section.
+
+Numpy:
+```bash
+pip install numpy
+```
+Pandas:
+```bash
+pip install pandas
+```
+nltk:
+```bash
+pip install nltk
+```
+```bash
+pip install scikit-learn
+```
+```bash
+pip install spacy
+```
+Sentencepiece:
+```bash
+pip install sentencepiece
+```
+Pydub:
+```bash
+pip install pydub
+```
+-OR-
+```bash
+pip install git+https://github.com/jiaaro/pydub.git@master
+```
+-OR-
+```bash
+git clone https://github.com/jiaaro/pydub.git
+```
+Transformers
+```bash
+pip install transformers
+```
+SimpleT5
+```bash
+pip install --upgrade simplet5
+```
+Whisper
+```bash
+pip install -U openai-whisper
+```
+-OR-
+
+```bash
+pip install git+https://github.com/openai/whisper.git
+```
+Pyannote
+```bash
+pip install pyannote.audio
+```
+
+* Create your access token on huggingface to utilize their pyannote-Speaker Diarization system by following their terms and conditions. (Follow these instructions [Speaker-Diarization](https://huggingface.co/pyannote/speaker-diarization-3.1) for more understanding)
+* Set up the development environment on your development machine.
 ## Usage
 
-1. Navigate to the project directory on your development machine.
-2. To start the **Main Page of Project** in the live server:
+* Navigate to the project directory on your development machine.
+* To start the **Main Page of Project** in the live server:
 
     * Run the *main.py* script using the command ***python main.py***
-    
+      ```bash
+      python app.py
+      ```
     * This will start the server and you can access the website page through the provided URL at localhost:5000.
-3. We have divided our project into 3 main services comprising:
+* We have divided our project into 3 main services comprising:
    
     * Audio to Text Transcription service.
 
     * Extractive Summarization service.
 
     * Meeting Agenda Generation(Abstractive summarization) service.
-4. To access the first service i.e Audio-to-text Transcription
+* To access the first service i.e Audio-to-text Transcription
 
     * Navigate through the website to access the 1st service page and upload the audio file and the system generates the text transcript with the speaker labels along with the time stamps of different speakers speaking.
 
-5. To access the second service i.e Extractive Summarization
+* To access the second service i.e Extractive Summarization
 
     * Navigate through the website to access the 2nd service page and upload the audio file and the system generates an extractive summary.
 
-6. To access the third service i.e Meeting Agenda Generation
+* To access the third service i.e Meeting Agenda Generation
 
     * Navigate through the website to access the 3rd service page and upload the audio file and the system generates a Meeting agenda along with a short summary of abstractive type.
 
-7. To close the server press ***ctrl+c*** in the terminal.
+* To close the server press ***ctrl+c*** in the terminal.
 
 ## Execution Screenshots
 1. Main page
