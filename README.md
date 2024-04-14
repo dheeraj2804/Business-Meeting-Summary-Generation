@@ -2,8 +2,6 @@
 # Project Name: Business Meeting Summary Generation.
 
 
-
-
 ## Description
 
 This project involves the development of an innovative system for meeting summary generation. The system couples the audio-to-text transcription with both extractive and abstractive summarization pipelines to generate different kinds of summaries for easy understanding and interpretation. The system is also able to generate a meeting agenda that helps in better understanding the context of the meeting.
