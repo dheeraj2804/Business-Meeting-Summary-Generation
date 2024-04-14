@@ -140,8 +140,8 @@ pip install pyannote.audio
 
 
 
-*To see all the execution photos open [Project Execution Photos](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/master/Project%20Execution%20Screenshots) directory*
-*To see all the project related papers and documentations open [Documentations](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/main) main brach*
+* To see all the execution photos open [Project Execution Photos](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/master/Project%20Execution%20Screenshots) directory
+* To see all the project related papers and documentations open [main](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/tree/main) brach
 
 ## Credits
 
