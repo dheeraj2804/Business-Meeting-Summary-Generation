@@ -75,7 +75,7 @@ pip install -U openai-whisper
 ```bash
 pip install git+https://github.com/openai/whisper.git
 ```
-Pyannote
+Pyannote - Speaker Diarization
 ```bash
 pip install pyannote.audio
 ```
