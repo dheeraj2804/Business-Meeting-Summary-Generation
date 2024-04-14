@@ -85,34 +85,34 @@ pip install pyannote.audio
 * Set up the development environment on your development machine.
 ## Usage
 
-* Navigate to the project directory on your development machine.
-* To start the **Main Page of Project** in the live server:
+1. Navigate to the project directory on your development machine.
+2. To start the **Main Page of Project** in the live server:
 
     * Run the *main.py* script using the command ***python main.py***
       ```bash
       python app.py
       ```
     * This will start the server and you can access the website page through the provided URL at localhost:5000.
-* We have divided our project into 3 main services comprising:
+3. We have divided our project into 3 main services comprising:
    
     * Audio to Text Transcription service.
 
     * Extractive Summarization service.
 
     * Meeting Agenda Generation(Abstractive summarization) service.
-* To access the first service i.e Audio-to-text Transcription
+4. To access the first service i.e Audio-to-text Transcription
 
     * Navigate through the website to access the 1st service page and upload the audio file and the system generates the text transcript with the speaker labels along with the time stamps of different speakers speaking.
 
-* To access the second service i.e Extractive Summarization
+5. To access the second service i.e Extractive Summarization
 
     * Navigate through the website to access the 2nd service page and upload the audio file and the system generates an extractive summary.
 
-* To access the third service i.e Meeting Agenda Generation
+6. To access the third service i.e Meeting Agenda Generation
 
     * Navigate through the website to access the 3rd service page and upload the audio file and the system generates a Meeting agenda along with a short summary of abstractive type.
 
-* To close the server press ***ctrl+c*** in the terminal.
+7. To close the server press ***ctrl+c*** in the terminal.
 
 ## Execution Screenshots
 1. Main page
