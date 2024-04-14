@@ -89,7 +89,7 @@ pip install pyannote.audio
 
     * Run the *main.py* script using the command ***python main.py***
       ```bash
-      python app.py
+      python main.py
       ```
     * This will start the server and you can access the website page through the provided URL at localhost:5000.
 3. We have divided our project into 3 main services comprising:
