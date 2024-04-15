@@ -120,6 +120,10 @@ pip install pyannote.audio
 
   [Video presentation](https://drive.google.com/file/d/1wTtanVUsArr7Gx1a0UxleK24MX03uTkG/view?usp=sharing)
 
+## Documentation
+
+[Documentation](https://github.com/dheeraj2804/Business-Meeting-Summary-Generation/blob/main/TEAM-07%20Final%20Documentation.pdf)
+
 
 ## Screenshots
 1. Main page
